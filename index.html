@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Demo Restaurant</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff8f0;
+    color: #222;
+}
+
+header {
+    background: #7b1e1e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+nav {
+    margin-top: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.hero {
+    min-height: 420px;
+    padding: 100px 20px;
+    text-align: center;
+
+    background:
+    linear-gradient(#0008, #0008),
+    url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80");
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+    background: #f4a261;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 45px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #7b1e1e;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #0002;
+}
+
+.card h3 {
+    color: #7b1e1e;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+    margin-top: 12px;
+    color: #e76f51;
+}
+
+.contact {
+    background: #7b1e1e;
+    color: white;
+}
+
+.contact h2 {
+    color: white;
+}
+
+footer {
+    background: #351111;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <h1>🍽️ Demo Restaurant</h1>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+
+<div class="hero" id="home">
+
+    <h2>Authentic Taste, Made With Love</h2>
+
+    <p>Delicious food • Great atmosphere • Happy moments</p>
+
+    <a class="button" href="#menu">
+        View Our Menu
+    </a>
+
+</div>
+
+
+<section id="menu">
+
+    <h2>Our Popular Menu</h2>
+
+    <div class="menu">
+
+        <div class="card">
+
+            <h3>🍕 Special Pizza</h3>
+
+            <p>
+                Fresh vegetables, cheese
+                and our special sauce.
+            </p>
+
+            <div class="price">
+                ₹249
+            </div>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>🍔 Classic Burger</h3>
+
+            <p>
+                Juicy burger with fresh
+                vegetables and crispy fries.
+            </p>
+
+            <div class="price">
+                ₹179
+            </div>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>🍝 Creamy Pasta</h3>
+
+            <p>
+                Delicious pasta prepared
+                with our signature sauce.
+            </p>
+
+            <div class="price">
+                ₹199
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="contact" id="contact">
+
+    <h2>Visit Us</h2>
+
+    <p>📍 Goa, India</p>
+
+</section>
+
+
+<footer>
+
+    © 2026 Demo Restaurant
+
+</footer>
+
+</body>
+</html>
